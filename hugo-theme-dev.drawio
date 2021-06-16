@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T18:26:28.235Z" agent="5.0 (Linux; Android 11; SM-P610) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="WzhyO7-ay_DL3JNvbcSV" version="14.7.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-16T18:42:24.395Z" agent="5.0 (Linux; Android 11; SM-P610) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="tYA5Lv-P1kwCJpB405Tb" version="14.7.8" type="github" pages="2">
   <diagram name="Tracking my theme inheritance" id="qegTBdjG4L62mmGAeBqi">
     <mxGraphModel dx="3540" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,18 +56,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MSSGYsJtzR-QYNbPrk31" name="decisions">
-    <mxGraphModel dx="1609" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="1363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="MpXqQDyjRl_6XkScYjr0-0" />
         <mxCell id="MpXqQDyjRl_6XkScYjr0-1" parent="MpXqQDyjRl_6XkScYjr0-0" />
-        <mxCell id="MpXqQDyjRl_6XkScYjr0-7" value="next steps brainstorm" style="swimlane;html=0;startSize=70;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=20;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#ffffff;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=50;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#5C5C5C;rounded=1;arcSize=2;fontColor=#E6E6E6;autosize=0;strokeWidth=6;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=none;shadow=1;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-1">
-          <mxGeometry x="360" y="410" width="610" height="630" as="geometry" />
+        <mxCell id="MpXqQDyjRl_6XkScYjr0-7" value="next steps brainstorm" style="swimlane;html=0;startSize=70;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=20;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#ffffff;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=20;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#5C5C5C;rounded=1;arcSize=2;fontColor=#E6E6E6;autosize=0;strokeWidth=6;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=none;shadow=1;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-1">
+          <mxGeometry x="30" y="40" width="280" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="MpXqQDyjRl_6XkScYjr0-8" value="deploy to staging site on LAN" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;startSize=0;align=left;strokeColor=none;shadow=0;fillColor=#98A6ED;arcSize=12;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-7">
-          <mxGeometry x="8" y="78" width="594" height="170" as="geometry" />
+        <mxCell id="MpXqQDyjRl_6XkScYjr0-8" value="deploy to staging site on LAN" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;strokeColor=#6c8ebf;shadow=0;fillColor=#dae8fc;arcSize=9;verticalAlign=middle;spacing=12;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-7">
+          <mxGeometry x="8" y="78" width="264" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="MpXqQDyjRl_6XkScYjr0-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-7">
-          <mxGeometry x="8" y="268" width="594" height="220" as="geometry" />
+        <mxCell id="MpXqQDyjRl_6XkScYjr0-9" value="set up design system for blog" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#BDCADB;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-7">
+          <mxGeometry x="8" y="150" width="264" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MpXqQDyjRl_6XkScYjr0-10" value="sticky cal " style="swimlane;html=0;startSize=70;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=20;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#ffffff;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=32;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#5C5C5C;rounded=1;arcSize=2;fontColor=#E6E6E6;autosize=0;strokeWidth=6;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=none;shadow=1;movable=1;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-1">
+          <mxGeometry x="520" y="80" width="250" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="MpXqQDyjRl_6XkScYjr0-11" value="16" style="rounded=1;whiteSpace=wrap;html=1;fontSize=32;startSize=0;align=center;strokeColor=none;shadow=0;connectable=0;allowArrows=0;resizable=0;resizeWidth=1;resizeHeight=0;arcSize=10;fontStyle=1;fillColor=#ADDE9B;movable=0;" vertex="1" parent="MpXqQDyjRl_6XkScYjr0-10">
+          <mxGeometry x="8" y="78" width="234" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

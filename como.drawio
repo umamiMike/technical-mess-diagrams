@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T17:38:18.278Z" agent="5.0 (X11)" etag="AwVJe0aL8h0bO-wcLfKc" version="14.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-16T17:50:55.426Z" agent="5.0 (X11)" etag="cdRM_A19eymg1wxzTLWe" version="14.8.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3220" dy="1247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7110" dy="3740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -24,15 +24,6 @@
         </mxCell>
         <mxCell id="ucrQczX7VRWxjf42sCM8-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="ucrQczX7VRWxjf42sCM8-10" vertex="1">
           <mxGeometry x="362" y="48" width="178" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="ucrQczX7VRWxjf42sCM8-1" value="client" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-390" y="600" width="270" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-2" value="item is in checkout and user wants to pay with affirm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ucrQczX7VRWxjf42sCM8-1">
-          <mxGeometry x="40" y="80" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-5" value="&lt;div&gt;back to redine checkout with token,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;there is a spinning bit while...&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ucrQczX7VRWxjf42sCM8-1">
-          <mxGeometry x="40" y="160" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ucrQczX7VRWxjf42sCM8-15" value="list of questions" style="swimlane;html=0;startSize=70;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=20;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#ffffff;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=20;fontStyle=0;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#5C5C5C;rounded=1;arcSize=2;fontColor=#E6E6E6;autosize=0;strokeWidth=6;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=none;shadow=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1201" y="390" width="263" height="360" as="geometry" />
@@ -223,51 +214,6 @@
         <mxCell id="HGGsZnnmCe_OoL_0t8II-7" value="a request is made to an affirm endpoint with the token, the purpose is to comple the transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1020" y="870" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-18" value="api" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=center;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=18;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-10" y="930" width="510" height="910" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-31" value="record affirm Tender in datastore???" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-18">
-          <mxGeometry x="90" y="190" width="120" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="HGGsZnnmCe_OoL_0t8II-18" source="HGGsZnnmCe_OoL_0t8II-35" target="HGGsZnnmCe_OoL_0t8II-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="affirm_service.ex" link="https://github.com/revzilla/monorepo/blob/c35e489db26d38f915f557a91d40f0ba14302956/redline/apps/redline_web_store/web/services/affirm_service.ex#L17" id="HGGsZnnmCe_OoL_0t8II-35">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-18">
-            <mxGeometry x="90" y="70" width="120" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-41" value="   service&lt;br/&gt;        |&amp;gt; lock_order_for_placement&lt;br/&gt;        |&amp;gt; lock_inventory&lt;br/&gt;        |&amp;gt; record_sailthru_cookie&lt;br/&gt;        |&amp;gt; record_personalizations(service.order.site_id)&lt;br/&gt;        |&amp;gt; check_shipping_groups&lt;br/&gt;        |&amp;gt; check_non_carb_items&lt;br/&gt;        |&amp;gt; refresh_available_amount_for_gift_cards&lt;br/&gt;        |&amp;gt; verify_available_clp_balances&lt;br/&gt;        |&amp;gt; debit_user_tender_balance&lt;br/&gt;        |&amp;gt; charge_gift_cards&lt;br/&gt;        |&amp;gt; attempt_affirm_authorization&lt;br/&gt;        |&amp;gt; handle_sunbit_payment&lt;br/&gt;        |&amp;gt; charge_braintree&lt;br/&gt;        |&amp;gt; roll_back_user_tender_balance_if_applicable&lt;br/&gt;        |&amp;gt; roll_back_gift_cards_if_applicable&lt;br/&gt;        |&amp;gt; persist_delivery_cards&lt;br/&gt;        |&amp;gt; expand_compound_skus&lt;br/&gt;        |&amp;gt; finalize_line_item_availability_and_price&lt;br/&gt;        |&amp;gt; remove_consolidated_shipping_for_single_item_orders&lt;br/&gt;        |&amp;gt; claim_inventory&lt;br/&gt;        |&amp;gt; set_shipping_method_price&lt;br/&gt;        |&amp;gt; handle_comoto_loyalty_payments&lt;br/&gt;        |&amp;gt; freeze_addresses_and_tenders&lt;br/&gt;        |&amp;gt; handle_fraud_checks(RiskifiedService.live?())&lt;br/&gt;        |&amp;gt; handle_double_zillacash&lt;br/&gt;        |&amp;gt; set_clp_active_flag&lt;br/&gt;        |&amp;gt; unlock_and_finalize_order&lt;br/&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-18">
-          <mxGeometry x="15" y="330" width="445" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-21" value="Affirm" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="610" width="270" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-3" value="&lt;div&gt;user is taken to affirm site to complete payment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-21">
-          <mxGeometry x="30" y="65" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-25" value="affirm responds and redirects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-21">
-          <mxGeometry x="30" y="170" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-29" value="no response needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HGGsZnnmCe_OoL_0t8II-21">
-          <mxGeometry x="30" y="300" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HGGsZnnmCe_OoL_0t8II-2" target="HGGsZnnmCe_OoL_0t8II-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HGGsZnnmCe_OoL_0t8II-25" target="HGGsZnnmCe_OoL_0t8II-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HGGsZnnmCe_OoL_0t8II-35" target="HGGsZnnmCe_OoL_0t8II-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="1030" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HGGsZnnmCe_OoL_0t8II-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HGGsZnnmCe_OoL_0t8II-5" target="HGGsZnnmCe_OoL_0t8II-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-130" y="1050" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HGGsZnnmCe_OoL_0t8II-34" value="we make some http request to affirm endpoint with token to complete transaction" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1640" y="740" width="120" height="180" as="geometry" />
         </mxCell>
@@ -284,66 +230,128 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HE1VfRM75uAiaPYxfimM" name="mob coding">
-    <mxGraphModel dx="1874" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="jIR6ZfUCpSBKofC2tpVq-0" />
         <mxCell id="jIR6ZfUCpSBKofC2tpVq-1" parent="jIR6ZfUCpSBKofC2tpVq-0" />
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-2" value="mob coding" style="swimlane;html=1;startSize=28;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=11;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-1">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-2" value="mob coding" style="swimlane;html=1;startSize=28;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=11;" parent="jIR6ZfUCpSBKofC2tpVq-1" vertex="1">
           <mxGeometry x="100" y="220" width="672" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-3" value="start, introduce the idea" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-2">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-3" value="start, introduce the idea" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-2" vertex="1">
           <mxGeometry x="20" y="48" width="100" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-4" value="introduce exercism" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-2">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-4" value="introduce exercism" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-2" vertex="1">
           <mxGeometry x="140" y="48" width="96" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-5" value="make a list of questions" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-2">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-5" value="make a list of questions" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-2" vertex="1">
           <mxGeometry x="256" y="48" width="96" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-7" value="wrap up" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-2">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-7" value="wrap up" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-2" vertex="1">
           <mxGeometry x="372" y="48" width="48" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-13" value="pick a route" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-2">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-13" value="pick a route" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-2" vertex="1">
           <mxGeometry x="440" y="48" width="96" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-8" value="roles" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=10;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-1">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-8" value="roles" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=10;" parent="jIR6ZfUCpSBKofC2tpVq-1" vertex="1">
           <mxGeometry x="800" y="520" width="478" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-9" value="driver" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-8">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-9" value="driver" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-8" vertex="1">
           <mxGeometry x="20" y="40" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-10" value="navigator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-8">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-10" value="navigator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-8" vertex="1">
           <mxGeometry x="130" y="40" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-11" value="optionally rotating &lt;font style=&quot;font-size: 14px&quot;&gt;navigator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-8">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-11" value="optionally rotating &lt;font style=&quot;font-size: 14px&quot;&gt;navigator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-8" vertex="1">
           <mxGeometry x="246" y="40" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;mob&lt;/font&gt;, participates in discussion&amp;nbsp; of approach" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-8">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;mob&lt;/font&gt;, participates in discussion&amp;nbsp; of approach" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-8" vertex="1">
           <mxGeometry x="362" y="40" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-6" value="45 minutes with 5 minute rounds would be about 9 rounds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-1">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-6" value="45 minutes with 5 minute rounds would be about 9 rounds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-1" vertex="1">
           <mxGeometry x="1050" y="380" width="180" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-15" value="mob coding" style="swimlane;html=1;startSize=28;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=11;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-1">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-15" value="mob coding" style="swimlane;html=1;startSize=28;horizontal=1;childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;swimlaneLine=0;connectable=0;allowArrows=0;metaEdit=0;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#DCE0CE;resizeWidth=1;resizeHeight=1;autosize=1;collapsible=0;rounded=1;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;arcSize=11;" parent="jIR6ZfUCpSBKofC2tpVq-1" vertex="1">
           <mxGeometry x="100" y="370" width="716" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-16" value="mob coding goal is to have a little fun learning about elixir and communicating with each other about problem solving" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-16" value="mob coding goal is to have a little fun learning about elixir and communicating with each other about problem solving" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="20" y="48" width="110" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-14" value="I am mostly using this to give use a goal un-muddied by the codebase." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-14" value="I am mostly using this to give use a goal un-muddied by the codebase." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="150" y="48" width="100" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-17" value="introduce exercism" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-17" value="introduce exercism" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="270" y="48" width="96" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-18" value="make a list of questions" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-18" value="make a list of questions" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="386" y="48" width="96" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-19" value="wrap up" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-19" value="wrap up" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;shadow=0;fontFamily=Merriweather sans;fontStyle=0;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;spacingTop=1;spacingLeft=8;arcSize=9;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="502" y="48" width="48" height="192" as="geometry" />
         </mxCell>
-        <mxCell id="jIR6ZfUCpSBKofC2tpVq-20" value="pick a route" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="jIR6ZfUCpSBKofC2tpVq-15">
+        <mxCell id="jIR6ZfUCpSBKofC2tpVq-20" value="pick a route" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=9;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" parent="jIR6ZfUCpSBKofC2tpVq-15" vertex="1">
           <mxGeometry x="570" y="48" width="96" height="192" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h3UAj6HkqcIbFb5KNGux" name="om-550">
+    <mxGraphModel dx="3038" dy="51" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-0" />
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-1" parent="kT1nKr9P9CgJ7BB3jnHA-0" />
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-2" value="client" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-1">
+          <mxGeometry x="-720" y="1280" width="270" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-3" value="item is in checkout and user wants to pay with affirm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-2">
+          <mxGeometry x="40" y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-4" value="&lt;div&gt;back to redine checkout with token,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;there is a spinning bit while...&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-2">
+          <mxGeometry x="40" y="160" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-5" value="api" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=center;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=18;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-1">
+          <mxGeometry x="-320" y="1850" width="510" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-6" value="record affirm Tender in datastore???" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-5">
+          <mxGeometry x="90" y="190" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="kT1nKr9P9CgJ7BB3jnHA-5" source="kT1nKr9P9CgJ7BB3jnHA-8" target="kT1nKr9P9CgJ7BB3jnHA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="affirm_service.ex" link="https://github.com/revzilla/monorepo/blob/c35e489db26d38f915f557a91d40f0ba14302956/redline/apps/redline_web_store/web/services/affirm_service.ex#L17" id="kT1nKr9P9CgJ7BB3jnHA-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-5">
+            <mxGeometry x="90" y="70" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-9" value="   service&lt;br/&gt;        |&amp;gt; lock_order_for_placement&lt;br/&gt;        |&amp;gt; lock_inventory&lt;br/&gt;        |&amp;gt; record_sailthru_cookie&lt;br/&gt;        |&amp;gt; record_personalizations(service.order.site_id)&lt;br/&gt;        |&amp;gt; check_shipping_groups&lt;br/&gt;        |&amp;gt; check_non_carb_items&lt;br/&gt;        |&amp;gt; refresh_available_amount_for_gift_cards&lt;br/&gt;        |&amp;gt; verify_available_clp_balances&lt;br/&gt;        |&amp;gt; debit_user_tender_balance&lt;br/&gt;        |&amp;gt; charge_gift_cards&lt;br/&gt;        |&amp;gt; attempt_affirm_authorization&lt;br/&gt;        |&amp;gt; handle_sunbit_payment&lt;br/&gt;        |&amp;gt; charge_braintree&lt;br/&gt;        |&amp;gt; roll_back_user_tender_balance_if_applicable&lt;br/&gt;        |&amp;gt; roll_back_gift_cards_if_applicable&lt;br/&gt;        |&amp;gt; persist_delivery_cards&lt;br/&gt;        |&amp;gt; expand_compound_skus&lt;br/&gt;        |&amp;gt; finalize_line_item_availability_and_price&lt;br/&gt;        |&amp;gt; remove_consolidated_shipping_for_single_item_orders&lt;br/&gt;        |&amp;gt; claim_inventory&lt;br/&gt;        |&amp;gt; set_shipping_method_price&lt;br/&gt;        |&amp;gt; handle_comoto_loyalty_payments&lt;br/&gt;        |&amp;gt; freeze_addresses_and_tenders&lt;br/&gt;        |&amp;gt; handle_fraud_checks(RiskifiedService.live?())&lt;br/&gt;        |&amp;gt; handle_double_zillacash&lt;br/&gt;        |&amp;gt; set_clp_active_flag&lt;br/&gt;        |&amp;gt; unlock_and_finalize_order&lt;br/&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-5">
+          <mxGeometry x="15" y="330" width="445" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-10" value="Affirm" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#E6E6E6;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=0;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-1">
+          <mxGeometry x="340" y="1290" width="270" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-11" value="&lt;div&gt;user is taken to affirm site to complete payment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-10">
+          <mxGeometry x="30" y="65" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-12" value="affirm responds and redirects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-10">
+          <mxGeometry x="30" y="170" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-13" value="no response needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kT1nKr9P9CgJ7BB3jnHA-10">
+          <mxGeometry x="30" y="300" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="kT1nKr9P9CgJ7BB3jnHA-1" source="kT1nKr9P9CgJ7BB3jnHA-3" target="kT1nKr9P9CgJ7BB3jnHA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="kT1nKr9P9CgJ7BB3jnHA-1" source="kT1nKr9P9CgJ7BB3jnHA-12" target="kT1nKr9P9CgJ7BB3jnHA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kT1nKr9P9CgJ7BB3jnHA-1" source="kT1nKr9P9CgJ7BB3jnHA-8" target="kT1nKr9P9CgJ7BB3jnHA-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-145" y="1710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kT1nKr9P9CgJ7BB3jnHA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="kT1nKr9P9CgJ7BB3jnHA-1" source="kT1nKr9P9CgJ7BB3jnHA-4" target="kT1nKr9P9CgJ7BB3jnHA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-460" y="1730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

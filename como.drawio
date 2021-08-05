@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-05T20:30:45.987Z" agent="5.0 (X11)" etag="hybX61R3bwiOboSOHyZ2" version="14.9.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-05T20:33:08.807Z" agent="5.0 (X11)" etag="Nua46XYzaI1ioRhZokSs" version="14.9.3" type="github" pages="5">
   <diagram id="7uaoyUR84ip2NqgRrpE4" name="VENDR 445">
-    <mxGraphModel dx="-3306" dy="238" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#F0F0F0" math="0" shadow="0">
+    <mxGraphModel dx="-2850" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#F0F0F0" math="0" shadow="0">
       <root>
         <mxCell id="CDpjrbAI3h2cTBUzTSZ0-0" />
         <mxCell id="CDpjrbAI3h2cTBUzTSZ0-1" parent="CDpjrbAI3h2cTBUzTSZ0-0" />
@@ -74,22 +74,13 @@
           <mxGeometry x="833" y="331" width="134" height="68.15" as="geometry" />
         </mxCell>
         <mxCell id="tgN63dTnqYlYwQzp_P7r-9" value="Tasks for vendor 445" style="swimlane;html=0;startSize=28;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=20;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#DCE0CE;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=12;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#f5f5f5;rounded=1;arcSize=31;fontColor=#333333;autosize=0;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=#666666;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
-          <mxGeometry x="9398" y="3127" width="322" height="823" as="geometry" />
+          <mxGeometry x="9414" y="3127" width="322" height="601" as="geometry" />
         </mxCell>
         <mxCell id="tgN63dTnqYlYwQzp_P7r-6" value="change params, should only contain a list of skus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=14;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="tgN63dTnqYlYwQzp_P7r-9">
           <mxGeometry x="8" y="36" width="306" height="111" as="geometry" />
         </mxCell>
         <mxCell id="tgN63dTnqYlYwQzp_P7r-10" value="change response for realtime to conform with what ecom needs" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;startSize=0;align=left;strokeColor=none;shadow=0;fillColor=#98A6ED;" vertex="1" parent="tgN63dTnqYlYwQzp_P7r-9">
           <mxGeometry x="8" y="167" width="306" height="99" as="geometry" />
-        </mxCell>
-        <mxCell id="tgN63dTnqYlYwQzp_P7r-11" value="what data needs to be sent back to ecom" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;startSize=0;align=left;strokeColor=none;shadow=0;direction=south;fillColor=#D6B48D;" vertex="1" parent="tgN63dTnqYlYwQzp_P7r-9">
-          <mxGeometry x="8" y="286" width="306" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="tgN63dTnqYlYwQzp_P7r-13" value="what is ecom doing with the data?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="tgN63dTnqYlYwQzp_P7r-9">
-          <mxGeometry x="8" y="394" width="306" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="tgN63dTnqYlYwQzp_P7r-12" value="what params need be sent to redline" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;" vertex="1" parent="tgN63dTnqYlYwQzp_P7r-9">
-          <mxGeometry x="8" y="491" width="306" height="91" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-0" value="conform the data" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;arcSize=5;align=left;verticalAlign=top;spacingLeft=8;spacingTop=8;fontSize=19;strokeColor=#d6b656;fillColor=#fff2cc;spacingBottom=16;spacing=8;container=1;dropTarget=1;recursiveResize=1;collapsible=0;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
           <mxGeometry x="9172" y="1604" width="1870" height="62" as="geometry" />
@@ -113,13 +104,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-17" value="a list of skus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;autosize=1;spacing=8;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
-          <mxGeometry x="9877" y="3646.5" width="92" height="34" as="geometry" />
+          <mxGeometry x="10843" y="3694" width="92" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;startSize=11;endSize=10;strokeColor=#FF0080;" edge="1" parent="CDpjrbAI3h2cTBUzTSZ0-1" source="tgN63dTnqYlYwQzp_P7r-12" target="wgIRhfpvZxWoNtyG7TUI-17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wgIRhfpvZxWoNtyG7TUI-20" value="metadata needed?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;autosize=1;spacing=8;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
-          <mxGeometry x="9902" y="3688" width="126" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;startSize=11;endSize=10;strokeColor=#FF0080;fontStyle=1;labelBackgroundColor=#A8FF6E;spacing=15;" edge="1" parent="CDpjrbAI3h2cTBUzTSZ0-1" source="wgIRhfpvZxWoNtyG7TUI-33" target="wgIRhfpvZxWoNtyG7TUI-25">
           <mxGeometry x="-0.0379" y="-30" relative="1" as="geometry">
@@ -145,7 +133,7 @@
           <mxGeometry x="10986" y="3950" width="176" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-30" value="export realtime inventory ( vendor skus)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;autosize=1;spacing=8;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
-          <mxGeometry x="10142" y="3946" width="236" height="34" as="geometry" />
+          <mxGeometry x="10229" y="3969" width="236" height="34" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-33" value="async request to redline api" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;autosize=1;spacing=8;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
           <mxGeometry x="10617" y="3584" width="172" height="34" as="geometry" />
@@ -176,13 +164,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wgIRhfpvZxWoNtyG7TUI-62" value="Questions" style="swimlane;html=0;startSize=29;childLayout=stackLayout;horizontalStack=0;stackBorder=8;stackSpacing=8;resizeLast=0;resizeParent=1;swimlaneLine=0;swimlaneFillColor=#DCE0CE;dropTarget=1;collapsible=0;container=1;verticalAlign=middle;fontSize=10;fontStyle=1;labelPosition=center;verticalLabelPosition=middle;align=center;fillColor=#f5f5f5;rounded=1;arcSize=0;fontColor=#333333;autosize=0;perimeterSpacing=1;horizontal=1;allowArrows=0;strokeColor=#666666;fontFamily=Merriweather sans;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
-          <mxGeometry x="9931" y="4094" width="150" height="184" as="geometry" />
+          <mxGeometry x="9883" y="3883" width="234" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="wgIRhfpvZxWoNtyG7TUI-63" value="headers" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;shadow=0;fontFamily=Merriweather sans;fontStyle=0;strokeColor=#666666;fillColor=#f5f5f5;arcSize=14;spacingTop=1;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMerriweather%2Bsans;fontColor=#333333;" vertex="1" parent="wgIRhfpvZxWoNtyG7TUI-62">
-          <mxGeometry x="8" y="37" width="134" height="32.323232323232325" as="geometry" />
+        <mxCell id="tgN63dTnqYlYwQzp_P7r-11" value="&lt;div&gt;what data needs to be sent back to eco&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;strokeColor=none;shadow=0;direction=south;fillColor=#D6B48D;spacing=4;autosize=1;" vertex="1" parent="wgIRhfpvZxWoNtyG7TUI-62">
+          <mxGeometry x="8" y="37" width="218" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wgIRhfpvZxWoNtyG7TUI-64" value="body" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;startSize=0;align=left;strokeColor=none;shadow=0;direction=south;fillColor=#D6B48D;" vertex="1" parent="wgIRhfpvZxWoNtyG7TUI-62">
-          <mxGeometry x="8" y="77.32323232323233" width="134" height="32.323232323232325" as="geometry" />
+        <mxCell id="tgN63dTnqYlYwQzp_P7r-13" value="what is ecom doing with the data??" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=4;autosize=1;" vertex="1" parent="wgIRhfpvZxWoNtyG7TUI-62">
+          <mxGeometry x="8" y="71" width="218" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tgN63dTnqYlYwQzp_P7r-12" value="what params need be sent to redline" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=center;strokeColor=none;fillColor=#B0BCCC;" vertex="1" parent="CDpjrbAI3h2cTBUzTSZ0-1">
+          <mxGeometry x="10518" y="3646" width="306" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

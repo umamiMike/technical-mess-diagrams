@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T17:00:35.597Z" agent="5.0 (X11)" etag="XnKEY4z-gNieUiw7le9Z" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-23T17:21:10.642Z" agent="5.0 (X11)" etag="YXGw3GsUirEAxRd8xGmz" version="15.2.9" type="github" pages="3">
   <diagram id="aBcBDlXjNWq-kMcahnuy" name="Page-1">
     <mxGraphModel dx="1422" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,18 +103,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g0LBrzkmGWhZdz4Pdv4a" name="Page-3">
-    <mxGraphModel dx="1185" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2881" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="TMFqsDwCKvskh7P-Fh0n-0" />
         <mxCell id="TMFqsDwCKvskh7P-Fh0n-1" parent="TMFqsDwCKvskh7P-Fh0n-0" />
         <mxCell id="TMFqsDwCKvskh7P-Fh0n-2" value="rpm member" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
-          <mxGeometry x="340" y="390" width="30" height="60" as="geometry" />
+          <mxGeometry x="80" y="190" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TMFqsDwCKvskh7P-Fh0n-3" value="not rpm member" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
-          <mxGeometry x="330" y="500" width="30" height="60" as="geometry" />
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-3" value="not rpm member" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#000000;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;fontFamily=Helvetica;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry x="100" y="340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TMFqsDwCKvskh7P-Fh0n-6" value="switching from being rpm member to NOT being one" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
-          <mxGeometry x="340" y="640" width="30" height="60" as="geometry" />
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-11" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry x="1010" y="450" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-12" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-13" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-11">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-14" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-11">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-15" value="User" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry x="-80" y="310" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-16" value="yo" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry x="190" y="525" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-18" value="switching from being rpm member to NOT being one" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry y="620" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TMFqsDwCKvskh7P-Fh0n-23" value="rpm member" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.user;" vertex="1" parent="TMFqsDwCKvskh7P-Fh0n-1">
+          <mxGeometry x="-70" y="400" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
